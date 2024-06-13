@@ -1,0 +1,62 @@
+YOLO:
+      "segment":"../yolo_models/yolov8s-seg.pt"
+
+      "nano"   :"../yolo_models/yolov8n.pt"
+
+      "medium" :"../yolo_models/yolov8m.pt"
+
+      "large"  :"../yolo_models/yolov8x.pt"
+
+
+video_path:
+
+  scenario_1 : {
+        ## all path for scenario 1
+        "1c1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\50-38.mp4",
+        "1c2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\44-32.mp4",
+        "1c3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\40-30.mp4",
+        "1n1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\NT-38-50.mp4",
+        "1n2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\NT-34-46.mp4",
+        "1n3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\NT-28-40",
+        "1m1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash_8\Wagon-etk800\NM_40-28.mp4",
+
+        ## all path for scenario 2
+        "2c1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\52-26.mp4",
+        "2c2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\48-24.mp4",
+        "2c3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\42-21.mp4",
+        "2n1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\NT-35-50.mp4",
+        "2n2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\NT-31-50.mp4",
+        "2n3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\NT-25-50.mp4",
+        "2m1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC2\Wagon-etk800\NM_50-35.mp4",
+
+
+        ## all path for scenario 3
+        "3c1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\50-40.mp4",
+        "3c2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\46-38.mp4",
+        "3c3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\40-32.mp4",
+        "3n1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\NT-30-55.mp4",
+        "3n2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\NT-30-51.mp4",
+        "3n3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\NT-30-45.mp4",
+        "3m1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC3\Wagon-etk800\NM_36-36.mp4",
+
+
+        ## all path for scenario 4
+        "4c1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\47-32.mp4",
+        "4c2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\43-32.mp4",
+        "4c3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\37-32.mp4",
+        "4n1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\NT-36-46.mp4",
+        "4n2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\NT-32-42.mp4",
+        "4n3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Wagon-etk800\NT-26-36.mp4",
+        "4m1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC4\Roamer4WD-Truck\NM.mp4",
+
+
+        ## all path for sceanrio 5
+        "5c1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\38-38.mp4",
+        "5c2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\38-32.mp4",
+        "5c3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\38-28.mp4",
+        "5n1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\NT-38-36.mp4",
+        "5n2": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\NT-38-32.mp4",
+        "5n3": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\NT-38-28.mp4",
+        #"5m1": r"E:\Capture\BeamNG_dataset\BeamNG.drive\Crash8_SC5\LegranSE-etk800\46-34.mp4",
+
+    }
